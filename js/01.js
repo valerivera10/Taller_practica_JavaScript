@@ -59,12 +59,19 @@ do{
                 console.log('Obeso')
                 }
 
+                console.log(IMC (Peso, Altura))
+        
             }
 
         case 4:
+            break 
+
+
+
+        case 5:
+            Number1 =prompt('Ingrese el primer numero: ')
+            Number2 =prompt('Ingrese el segundo numero: ')
             
-            console.log(IMC (Peso, Altura))
-            break
     }
 }while (opcion != 18)
 alert('Gracias')
