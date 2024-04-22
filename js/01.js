@@ -37,7 +37,34 @@ do{
             break;
 
         case 3:
+            Peso =prompt('Ingrese su peso: ')
+            Altura =prompt('Ingrese su altura: ')
+            BMI = Peso/ Altura**2
+            console.log(BMI)
+
+            function IMC (Peso, Altura) {
+                if (BMI < 18.5) {
+                console.log('Bajo peso')
+                }
+
+                else if ((BMI >= 18.5) && (BMI <= 24.9)) {
+                console.log('Normal')
+                }
+
+                else if ((BMI>= 25) && (BMI<=29.9)) {
+                console.log('Soprepeso')
+                }
+
+                else if (BMI>= 30) {
+                console.log('Obeso')
+                }
+
+            }
+
+        case 4:
             
+            console.log(IMC (Peso, Altura))
+            break
     }
 }while (opcion != 18)
 alert('Gracias')
